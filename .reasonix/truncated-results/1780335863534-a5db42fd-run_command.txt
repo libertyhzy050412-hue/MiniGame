@@ -1,0 +1,368 @@
+$ git add -A 2>&1 && git status 2>&1
+[exit 0]
+warning: LF will be replaced by CRLF in .gitignore.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Arts/第一关 (1)/1_画板 1.png.meta.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Arts/第一关 (1)/NPC_画板 1.png.meta.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Arts/第一关 (1)/NPCtouying_画板 1.png.meta.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Arts/第一关 (1)/beijing_画板 1.png.meta.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Arts/第一关 (1)/duihuakang_画板 1.png.meta.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Arts/第一关 (1)/huaxiang1_画板 1.png.meta.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Arts/第一关 (1)/huaxiang2_画板 1.png.meta.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Arts/第一关 (1)/huaxiang3_画板 1.png.meta.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Arts/第一关 (1)/huaxiang4_画板 1.png.meta.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Arts/第一关 (1)/hx1_画板 1.png.meta.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Arts/第一关 (1)/hx2_画板 1.png.meta.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Arts/第一关 (1)/hx3_画板 1.png.meta.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Arts/第一关 (1)/hx4_画板 1.png.meta.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Arts/第一关 (1)/louti_画板 1.png.meta.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Arts/第一关 (1)/lt2_画板 1.png.meta.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Arts/第一关 (1)/lt3_画板 1.png.meta.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Arts/第一关 (1)/nvpu_画板 1.png.meta.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Arts/第一关 (1)/nvpuxiansuo_画板 1.png.meta.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Arts/第一关 (1)/pintu1_画板 1_画板 1.png.meta.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Arts/第一关 (1)/pintu2_画板 1.png.meta.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Arts/第一关 (1)/pintu3_画板 1.png.meta.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Arts/第一关 (1)/pintu4_画板 1.png.meta.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Arts/第一关 (1)/q_画板 1.png.meta.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Arts/第一关 (1)/qiaomaibing_画板 1.png.meta.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Arts/第一关 (1)/shufang_画板 1.png.meta.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Arts/第一关 (1)/shufang，_画板 1.png.meta.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Arts/第一关 (1)/wgfenjing.png.meta.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Arts/第一关 (1)/wgfj1_画板 1.png.meta.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Arts/第一关 (1)/wgfj2_画板 1.png.meta.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Arts/第一关 (1)/wgfj3_画板 1.png.meta.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Arts/第一关 (1)/wgfj4_画板 1.png.meta.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Arts/第一关 (1)/wgfj5_画板 1.png.meta.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Arts/第一关 (1)/wgfj6_画板 1.png.meta.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Arts/第一关 (1)/x1_画板 1.png.meta.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Arts/第一关 (1)/x2_画板 1.png.meta.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Arts/第一关 (1)/x3_画板 1.png.meta.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Arts/第一关 (1)/xiaochou_画板 1.png.meta.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Arts/第一关 (1)/xz_画板 1.png.meta.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Arts/第一关 (1)/yanjing1_画板 1.png.meta.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Arts/第一关 (1)/yanjing2_画板 1.png.meta.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Arts/第一关 (1)/yanjing3_画板 1.png.meta.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Arts/第一关 (1)/yanjing4_画板 1.png.meta.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Arts/第一关 (1)/书房源文件.ai.meta.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Arts/第一关 (1)/对话框例子.png.meta.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Arts/第一关 (1)/小镇.ai.meta.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Arts/第一关 (1)/小镇_画板 1.png.meta.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Arts/第一关 (1)/总_画板 1.png.meta.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Arts/第一关 (1)/源文件.ai.meta.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Arts/第一关 (1)/王宫分镜1源文件.ai.meta.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Arts/第一关 (1)/王宫分镜2源文件.ai.meta.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Arts/第一关补充/主角家.ai.meta.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Arts/第一关补充/主角家.png.meta.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Arts/第一关补充/主角家_画板 1.png.meta.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Arts/第一关补充/主角父母+饼_画板 1.png.meta.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Arts/第一关补充/王宫门口.ai.meta.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Arts/第一关补充/王宫门口_画板 1.png.meta.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Arts/第三关补充/7-07.png.meta.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Arts/第三关补充/tm野外_画板 1.png.meta.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Arts/第三关补充/总.ai.meta.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Arts/第三关补充/生火_画板 1.png.meta.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Arts/第三关补充/第二幕-04.png.meta.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Arts/第三关补充/触发点-06.png.meta.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Arts/第三关补充/野外_画板 1.png.meta.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Arts/第三关部分/7-07.png.meta.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Arts/第三关部分/tm野外_画板 1.png.meta.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Arts/第三关部分/生火_画板 1.png.meta.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Arts/第三关部分/第二幕-04.png.meta.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Arts/第三关部分/触发点-06.png.meta.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Arts/第三关部分/野外.ai.meta.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Arts/第三关部分/野外_画板 1.png.meta.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Arts/第二关部分/1_画板 1.jpg.meta.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Arts/第二关部分/jt1_画板 1.png.meta.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Arts/第二关部分/jt2_画板 1.png.meta.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Arts/第二关部分/jtfj1_画板 1.png.meta.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Arts/第二关部分/jtfj2_画板 1.png.meta.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Arts/第二关部分/qq_画板 1.png.meta.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Arts/第二关部分/tm_画板 1.png.meta.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Arts/第二关部分/tp_画板 1.png.meta.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Arts/第二关部分/xiaochou_画板 1.png.meta.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Arts/第二关部分/其他_画板 1.png.meta.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Arts/第二关部分/教堂.ai.meta.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Arts/第二关部分/教堂场景_画板 1.png.meta.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Arts/第二关部分/源文件.ai.meta.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Arts/第二关部分/源文件_1_.ai.meta.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Arts/第二关部分/源文件_2_.ai.meta.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Arts/第二关部分/舞者-01.jpg.meta.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Arts/第四关/第四关.ai.meta.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in game/.gitignore.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in game/index.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in game/package-lock.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in game/package.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in game/public/icons.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in game/src/assets/typescript.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in game/src/assets/vite.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in game/src/audio.ts.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in game/src/counter.ts.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in game/tsconfig.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in tools/gen_docx.py.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 游戏说明书.md.
+The file will have its original line endings in your working directory
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+	new file:   .gitignore
+	new file:   "Arts/\347\254\254\344\270\200\345\205\263 (1)/1_\347\224\273\346\235\277 1.png"
+	new file:   "Arts/\347\254\254\344\270\200\345\205\263 (1)/1_\347\224\273\346\235\277 1.png.meta"
+	new file:   "Arts/\347\254\254\344\270\200\345\205\263 (1)/NPC_\347\224\273\346\235\277 1.png"
+	new file:   "Arts/\347\254\254\344\270\200\345\205\263 (1)/NPC_\347\224\273\346\235\277 1.png.meta"
+	new file:   "Arts/\347\254\254\344\270\200\345\205\263 (1)/NPCtouying_\347\224\273\346\235\277 1.png"
+	new file:   "Arts/\347\254\254\344\270\200\345\205\263 (1)/NPCtouying_\347\224\273\346\235\277 1.png.meta"
+	new file:   "Arts/\347\254\254\344\270\200\345\205\263 (1)/beijing_\347\224\273\346\235\277 1.png"
+	new file:   "Arts/\347\254\254\344\270\200\345\205\263 (1)/beijing_\347\224\273\346\235\277 1.png.meta"
+	new file:   "Arts/\347\254\254\344\270\200\345\205\263 (1)/duihuakang_\347\224\273\346\235\277 1.png"
+	new file:   "Arts/\347\254\254\344\270\200\345\205\263 (1)/duihuakang_\347\224\273\346\235\277 1.png.meta"
+	new file:   "Arts/\347\254\254\344\270\200\345\205\263 (1)/huaxiang1_\347\224\273\346\235\277 1.png"
+	new file:   "Arts/\347\254\254\344\270\200\345\205\263 (1)/huaxiang1_\347\224\273\346\235\277 1.png.meta"
+	new file:   "Arts/\347\254\254\344\270\200\345\205\263 (1)/huaxiang2_\347\224\273\346\235\277 1.png"
+	new file:   "Arts/\347\254\254\344\270\200\345\205\263 (1)/huaxiang2_\347\224\273\346\235\277 1.png.meta"
+	new file:   "Arts/\347\254\254\344\270\200\345\205\263 (1)/huaxiang3_\347\224\273\346\235\277 1.png"
+	new file:   "Arts/\347\254\254\344\270\200\345\205\263 (1)/huaxiang3_\347\224\273\346\235\277 1.png.meta"
+	new file:   "Arts/\347\254\254\344\270\200\345\205\263 (1)/huaxiang4_\347\224\273\346\235\277 1.png"
+	new file:   "Arts/\347\254\254\344\270\200\345\205\263 (1)/huaxiang4_\347\224\273\346\235\277 1.png.meta"
+	new file:   "Arts/\347\254\254\344\270\200\345\205\263 (1)/hx1_\347\224\273\346\235\277 1.png"
+	new file:   "Arts/\347\254\254\344\270\200\345\205\263 (1)/hx1_\347\224\273\346\235\277 1.png.meta"
+	new file:   "Arts/\347\254\254\344\270\200\345\205\263 (1)/hx2_\347\224\273\346\235\277 1.png"
+	new file:   "Arts/\347\254\254\344\270\200\345\205\263 (1)/hx2_\347\224\273\346\235\277 1.png.meta"
+	new file:   "Arts/\347\254\254\344\270\200\345\205\263 (1)/hx3_\347\224\273\346\235\277 1.png"
+	new file:   "Arts/\347\254\254\344\270\200\345\205\263 (1)/hx3_\347\224\273\346\235\277 1.png.meta"
+	new file:   "Arts/\347\254\254\344\270\200\345\205\263 (1)/hx4_\347\224\273\346\235\277 1.png"
+	new file:   "Arts/\347\254\254\344\270\200\345\205\263 (1)/hx4_\347\224\273\346\235\277 1.png.meta"
+	new file:   "Arts/\347\254\254\344\270\200\345\205\263 (1)/louti_\347\224\273\346\235\277 1.png"
+	new file:   "Arts/\347\254\254\344\270\200\345\205\263 (1)/louti_\347\224\273\346\235\277 1.png.meta"
+	new file:   "Arts/\347\254\254\344\270\200\345\205\263 (1)/lt2_\347\224\273\346\235\277 1.png"
+	new file:   "Arts/\347\254\254\344\270\200\345\205\263 (1)/lt2_\347\224\273\346\235\277 1.png.meta"
+	new file:   "Arts/\347\254\254\344\270\200\345\205\263 (1)/lt3_\347\224\273\346\235\277 1.png"
+	new file:   "Arts/\347\254\254\344\270\200\345\205\263 (1)/lt3_\347\224\273\346\235\277 1.png.meta"
+	new file:   "Arts/\347\254\254\344\270\200\345\205\263 (1)/nvpu_\347\224\273\346\235\277 1.png"
+	new file:   "Arts/\347\254\254\344\270\200\345\205\263 (1)/nvpu_\347\224\273\346\235\277 1.png.meta"
+	new file:   "Arts/\347\254\254\344\270\200\345\205\263 (1)/nvpuxiansuo_\347\224\273\346\235\277 1.png"
+	new file:   "Arts/\347\254\254\344\270\200\345\205\263 (1)/nvpuxiansuo_\347\224\273\346\235\277 1.png.meta"
+	new file:   "Arts/\347\254\254\344\270\200\345\205\263 (1)/pintu1_\347\224\273\346\235\277 1_\347\224\273\346\235\277 1.png"
+	new file:   "Arts/\347\254\254\344\270\200\345\205\263 (1)/pintu1_\347\224\273\346\235\277 1_\347\224\273\346\235\277 1.png.meta"
+	new file:   "Arts/\347\254\254\344\270\200\345\205\263 (1)/pintu2_\347\224\273\346\235\277 1.png"
+	new file:   "Arts/\347\254\254\344\270\200\345\205\263 (1)/pintu2_\347\224\273\346\235\277 1.png.meta"
+	new file:   "Arts/\347\254\254\344\270\200\345\205\263 (1)/pintu3_\347\224\273\346\235\277 1.png"
+	new file:   "Arts/\347\254\254\344\270\200\345\205\263 (1)/pintu3_\347\224\273\346\235\277 1.png.meta"
+	new file:   "Arts/\347\254\254\344\270\200\345\205\263 (1)/pintu4_\347\224\273\346\235\277 1.png"
+	new file:   "Arts/\347\254\254\344\270\200\345\205\263 (1)/pintu4_\347\224\273\346\235\277 1.png.meta"
+	new file:   "Arts/\347\254\254\344\270\200\345\205\263 (1)/q_\347\224\273\346\235\277 1.png"
+	new file:   "Arts/\347\254\254\344\270\200\345\205\263 (1)/q_\347\224\273\346\235\277 1.png.meta"
+	new file:   "Arts/\347\254\254\344\270\200\345\205\263 (1)/qiaomaibing_\347\224\273\346\235\277 1.png"
+	new file:   "Arts/\347\254\254\344\270\200\345\205\263 (1)/qiaomaibing_\347\224\273\346\235\277 1.png.meta"
+	new file:   "Arts/\347\254\254\344\270\200\345\205\263 (1)/shufang_\347\224\273\346\235\277 1.png"
+	new file:   "Arts/\347\254\254\344\270\200\345\205\263 (1)/shufang_\347\224\273\346\235\277 1.png.meta"
+	new file:   "Arts/\347\254\254\344\270\200\345\205\263 (1)/shufang\357\274\214_\347\224\273\346\235\277 1.png"
+	new file:   "Arts/\347\254\254\344\270\200\345\205\263 (1)/shufang\357\274\214_\347\224\273\346\235\277 1.png.meta"
+	new file:   "Arts/\347\254\254\344\270\200\345\205\263 (1)/wgfenjing.png"
+	new file:   "Arts/\347\254\254\344\270\200\345\205\263 (1)/wgfenjing.png.meta"
+	new file:   "Arts/\347\254\254\344\270\200\345\205\263 (1)/wgfj1_\347\224\273\346\235\277 1.png"
+	new file:   "Arts/\347\254\254\344\270\200\345\205\263 (1)/wgfj1_\347\224\273\346\235\277 1.png.meta"
+	new file:   "Arts/\347\254\254\344\270\200\345\205\263 (1)/wgfj2_\347\224\273\346\235\277 1.png"
+	new file:   "Arts/\347\254\254\344\270\200\345\205\263 (1)/wgfj2_\347\224\273\346\235\277 1.png.meta"
+	new file:   "Arts/\347\254\254\344\270\200\345\205\263 (1)/wgfj3_\347\224\273\346\235\277 1.png"
+	new file:   "Arts/\347\254\254\344\270\200\345\205\263 (1)/wgfj3_\347\224\273\346\235\277 1.png.meta"
+	new file:   "Arts/\347\254\254\344\270\200\345\205\263 (1)/wgfj4_\347\224\273\346\235\277 1.png"
+	new file:   "Arts/\347\254\254\344\270\200\345\205\263 (1)/wgfj4_\347\224\273\346\235\277 1.png.meta"
+	new file:   "Arts/\347\254\254\344\270\200\345\205\263 (1)/wgfj5_\347\224\273\346\235\277 1.png"
+	new file:   "Arts/\347\254\254\344\270\200\345\205\263 (1)/wgfj5_\347\224\273\346\235\277 1.png.meta"
+	new file:   "Arts/\347\254\254\344\270\200\345\205\263 (1)/wgfj6_\347\224\273\346\235\277 1.png"
+	new file:   "Arts/\347\254\254\344\270\200\345\205\263 (1)/wgfj6_\347\224\273\346\235\277 1.png.meta"
+	new file:   "Arts/\347\254\254\344\270\200\345\205\263 (1)/x1_\347\224\273\346\235\277 1.png"
+	new file:   "Arts/\347\254\254\344\270\200\345\205\263 (1)/x1_\347\224\273\346\235\277 1.png.meta"
+	new file:   "Arts/\347\254\254\344\270\200\345\205\263 (1)/x2_\347\224\273\346\235\277 1.png"
+	new file:   "Arts/\347\254\254\344\270\200\345\205\263 (1)/x2_\347\224\273\346\235\277 1.png.meta"
+	new file:   "Arts/\347\254\254\344\270\200\345\205\263 (1)/x3_\347\224\273\346\235\277 1.png"
+	new file:   "Arts/\347\254\254\344\270\200\345\205\263 (1)/x3_\347\224\273\346\235\277 1.png.meta"
+	new file:   "Arts/\347\254\254\344\270\200\345\205\263 (1)/xiaochou_\347\224\273\346\235\277 1.png"
+	new file:   "Arts/\347\254\254\344\270\200\345\205\263 (1)/xiaochou_\347\224\273\346\235\277 1.png.meta"
+	new file:   "Arts/\347\254\254\344\270\200\345\205\263 (1)/xz_\347\224\273\346\235\277 1.png"
+	new file:   "Arts/\347\254\254\344\270\200\345\205\263 (1)/xz_\347\224\273\346\235\277 1.png.meta"
+	new file:   "Arts/\347\254\254\344\270\200\345\205\263 (1)/yanjing1_\347\224\273\346\235\277 1.png"
+	new file:   "Arts/\347\254\254\344\270\200\345\205\263 (1)/yanjing1_\347\224\273\346\235\277 1.png.meta"
+	new file:   "Arts/\347\254\254\344\270\200\345\205\263 (1)/yanjing2_\347\224\273\346\235\277 1.png"
+	new file:   "Arts/\347\254\254\344\270\200\345\205\263 (1)/yanjing2_\347\224\273\346\235\277 1.png.meta"
+	new file:   "Arts/\347\254\254\344\270\200\345\205\263 (1)/yanjing3_\347\224\273\346\235\277 1.png"
+	new file:   "Arts/\347\254\254\344\270\200\345\205\263 (1)/yanjing3_\347\224\273\346\235\277 1.png.meta"
+	new file:   "Arts/\347\254\254\344\270\200\345\205\263 (1)/yanjing4_\347\224\273\346\235\277 1.png"
+	new file:   "Arts/\347\254\254\344\270\200\345\205\263 (1)/yanjing4_\347\224\273\346\235\277 1.png.meta"
+	new file:   "Arts/\347\254\254\344\270\200\345\205\263 (1)/\344\271\246\346\210\277\346\272\220\346\226\207\344\273\266.ai"
+	new file:   "Arts/\347\254\254\344\270\200\345\205\263 (1)/\344\271\246\346\210\277\346\272\220\346\226\207\344\273\266.ai.meta"
+	new file:   "Arts/\347\254\254\344\270\200\345\205\263 (1)/\344\271\246\346\210\277\346\272\220\346\226\207\344\273\266.png"
+	new file:   "Arts/\347\254\254\344\270\200\345\205\263 (1)/\345\257\271\350\257\235\346\241\206\344\276\213\345\255\220.png"
+	new file:   "Arts/\347\254\254\344\270\200\345\205\263 (1)/\345\257\271\350\257\235\346\241\206\344\276\213\345\255\220.png.meta"
+	new file:   "Arts/\347\254\254\344\270\200\345\205\263 (1)/\345\260\217\351\225\207.ai"
+	new file:   "Arts/\347\254\254\344\270\200\345\205\263 (1)/\345\260\217\351\225\207.ai.meta"
+	new file:   "Arts/\347\254\254\344\270\200\345\205\263 (1)/\345\260\217\351\225\207.png"
+	new file:   "Arts/\347\254\254\344\270\200\345\205\263 (1)/\345\260\217\351\225\207_\347\224\273\346\235\277 1.png"
+	new file:   "Arts/\347\254\254\344\270\200\345\205\263 (1)/\345\260\217\351\225\207_\347\224\273\346\235\277 1.png.meta"
+	new file:   "Arts/\347\254\254\344\270\200\345\205\263 (1)/\346\200\273_\347\224\273\346\235\277 1.png"
+	new file:   "Arts/\347\254\254\344\270\200\345\205\263 (1)/\346\200\273_\347\224\273\346\235\277 1.png.meta"
+	new file:   "Arts/\347\254\254\344\270\200\345\205\263 (1)/\346\272\220\346\226\207\344\273\266.ai"
+	new file:   "Arts/\347\254\254\344\270\200\345\205\263 (1)/\346\272\220\346\226\207\344\273\266.ai.meta"
+	new file:   "Arts/\347\254\254\344\270\200\345\205\263 (1)/\347\216\213\345\256\253\345\210\206\351\225\2341\346\272\220\346\226\207\344\273\266.ai"
+	new file:   "Arts/\347\254\254\344\270\200\345\205\263 (1)/\347\216\213\345\256\253\345\210\206\351\225\2341\346\272\220\346\226\207\344\273\266.ai.meta"
+	new file:   "Arts/\347\254\254\344\270\200\345\205\263 (1)/\347\216\213\345\256\253\345\210\206\351\225\2341\346\272\220\346\226\207\344\273\266.png"
+	new file:   "Arts/\347\254\254\344\270\200\345\205\263 (1)/\347\216\213\345\256\253\345\210\206\351\225\2342\346\272\220\346\226\207\344\273\266.ai"
+	new file:   "Arts/\347\254\254\344\270\200\345\205\263 (1)/\347\216\213\345\256\253\345\210\206\351\225\2342\346\272\220\346\226\207\344\273\266.ai.meta"
+	new file:   "Arts/\347\254\254\344\270\200\345\205\263 (1)/\347\216\213\345\256\253\345\210\206\351\225\2342\346\272\220\346\226\207\344\273\266.png"
+	new file:   "Arts/\347\254\254\344\270\200\345\205\263\350\241\245\345\205\205/\344\270\273\350\247\222\345\256\266.ai"
+	new file:   "Arts/\347\254\254\344\270\200\345\205\263\350\241\245\345\205\205/\344\270\273\350\247\222\345\256\266.ai.meta"
+	new file:   "Arts/\347\254\254\344\270\200\345\205\263\350\241\245\345\205\205/\344\270\273\350\247\222\345\256\266.png"
+	new file:   "Arts/\347\254\254\344\270\200\345\205\263\350\241\245\345\205\205/\344\270\273\350\247\222\345\256\266.png.meta"
+	new file:   "Arts/\347\254\254\344\270\200\345\205\263\350\241\245\345\205\205/\344\270\273\350\247\222\345\256\266_\347\224\273\346\235\277 1.png"
+	new file:   "Arts/\347\254\254\344\270\200\345\205\263\350\241\245\345\205\205/\344\270\273\350\247\222\345\256\266_\347\224\273\346\235\277 1.png.meta"
+	new file:   "Arts/\347\254\254\344\270\200\345\205\263\350\241\245\345\205\205/\344\270\273\350\247\222\347\210\266\346\257\215+\351\245\274_\347\224\273\346\235\277 1.png"
+	new file:   "Arts/\347\254\254\344\270\200\345\205\263\350\241\245\345\205\205/\344\270\273\350\247\222\347\210\266\346\257\215+\351\245\274_\347\224\273\346\235\277 1.png.meta"
+	new file:   "Arts/\347\254\254\344\270\200\345\205\263\350\241\245\345\205\205/\347\216\213\345\256\253\351\227\250\345\217\243.ai"
+	new file:   "Arts/\347\254\254\344\270\200\345\205\263\350\241\245\345\205\205/\347\216\213\345\256\253\351\227\250\345\217\243.ai.meta"
+	new file:   "Arts/\347\254\254\344\270\200\345\205\263\350\241\245\345\205\205/\347\216\213\345\256\253\351\227\250\345\217\243_\347\224\273\346\235\277 1.png"
+	new file:   "Arts/\347\254\254\344\270\200\345\205\263\350\241\245\345\205\205/\347\216\213\345\256\253\351\227\250\345\217\243_\347\224\273\346\235\277 1.png.meta"
+	new file:   "Arts/\347\254\254\344\270\211\345\205\263\350\241\245\345\205\205/7-07.png"
+	new file:   "Arts/\347\254\254\344\270\211\345\205\263\350\241\245\345\205\205/7-07.png.meta"
+	new file:   "Arts/\347\254\254\344\270\211\345\205\263\350\241\245\345\205\205/tm\351\207\216\345\244\226_\347\224\273\346\235\277 1.png"
+	new file:   "Arts/\347\254\254\344\270\211\345\205\263\350\241\245\345\205\205/tm\351\207\216\345\244\226_\347\224\273\346\235\277 1.png.meta"
+	new file:   "Arts/\347\254\254\344\270\211\345\205\263\350\241\245\345\205\205/\346\200\273.ai"
+	new file:   "Arts/\347\254\254\344\270\211\345\205\263\350\241\245\345\205\205/\346\200\273.ai.meta"
+	new file:   "Arts/\347\254\254\344\270\211\345\205\263\350\241\245\345\205\205/\347\224\237\347\201\253_\347\224\273\346\235\277 1.png"
+	new file:   "Arts/\347\254\254\344\270\211\345\205\263\350\241\245\345\205\205/\347\224\237\347\201\253_\347\224\273\346\235\277 1.png.meta"
+	new file:   "Arts/\347\254\254\344\270\211\345\205\263\350\241\245\345\205\205/\347\254\254\344\272\214\345\271\225-04.png"
+	new file:   "Arts/\347\254\254\344\270\211\345\205\263\350\241\245\345\205\205/\347\254\254\344\272\214\345\271\225-04.png.meta"
+	new file:   "Arts/\347\254\254\344\270\211\345\205\263\350\241\245\345\205\205/\350\247\246\345\217\221\347\202\271-06.png"
+	new file:   "Arts/\347\254\254\344\270\211\345\205\263\350\241\245\345\205\205/\350\247\246\345\217\221\347\202\271-06.png.meta"
+	new file:   "Arts/\347\254\254\344\270\211\345\205\263\350\241\245\345\205\205/\351\207\216\345\244\226_\347\224\273\346\235\277 1.png"
+	new file:   "Arts/\347\254\254\344\270\211\345\205\263\350\241\245\345\205\205/\351\207\216\345\244\226_\347\224\273\346\235\277 1.png.meta"
+	new file:   "Arts/\347\254\254\344\270\211\345\205\263\351\203\250\345\210\206/7-07.png"
+	new file:   "Arts/\347\254\254\344\270\211\345\205\263\351\203\250\345\210\206/7-07.png.meta"
+	new file:   "Arts/\347\254\254\344\270\211\345\205\263\351\203\250\345\210\206/tm\351\207\216\345\244\226_\347\224\273\346\235\277 1.png"
+	new file:   "Arts/\347\254\254\344\270\211\345\205\263\351\203\250\345\210\206/tm\351\207\216\345\244\226_\347\224\273\346\235\277 1.png.meta"
+	new file:   "Arts/\347\254\254\344\270\211\345\205\263\351\203\250\345\210\206/\347\224\237\347\201\253_\347\224\273\346\235\277 1.png"
+	new file:   "Arts/\347\254\254\344\270\211\345\205\263\351\203\250\345\210\206/\347\224\237\347\201\253_\347\224\273\346\235\277 1.png.meta"
+	new file:   "Arts/\347\254\254\344\270\211\345\205\263\351\203\250\345\210\206/\347\254\254\344\272\214\345\271\225-04.png"
+	new file:   "Arts/\347\254\254\344\270\211\345\205\263\351\203\250\345\210\206/\347\254\254\344\272\214\345\271\225-04.png.meta"
+	new file:   "Arts/\347\254\254\344\270\211\345\205\263\351\203\250\345\210\206/\350\247\246\345\217\221\347\202\271-06.png"
+	new file:   "Arts/\347\254\254\344\270\211\345\205\263\351\203\250\345\210\206/\350\247\246\345\217\221\347\202\271-06.png.meta"
+	new file:   "Arts/\347\254\254\344\270\211\345\205\263\351\203\250\345\210\206/\351\207\216\345\244\226.ai"
+	new file:   "Arts/\347\254\254\344\270\211\345\205\263\351\203\250\345\210\206/\351\207\216\345\244\226.ai.meta"
+	new file:   "Arts/\347\254\254\344\270\211\345\205\263\351\203\250\345\210\206/\351\207\216\345\244\226_\347\224\273\346\235\277 1.png"
+	new file:   "Arts/\347\254\254\344\270\211\345\205\263\351\203\250\345\210\206/\351\207\216\345\244\226_\347\224\273\346\235\277 1.png.meta"
+	new file:   "Arts/\347\254\254\344\272\214\345\205\263\351\203\250\345\210\206/1_\347\224\273\346\235\277 1.jpg"
+	new file:   "Arts/\347\254\254\344\272\214\345\205\263\351\203\250\345\210\206/1_\347\224\273\346\235\277 1.jpg.meta"
+	new file:   "Arts/\347\254\254\344\272\214\345\205\263\351\203\250\345\210\206/jt1_\347\224\273\346\235\277 1.png"
+	new file:   "Arts/\347\254\254\344\272\214\345\205\263\351\203\250\345\210\206/jt1_\347\224\273\346\235\277 1.png.meta"
+	new file:   "Arts/\347\254\254\344\272\214\345\205\263\351\203\250\345\210\206/jt2_\347\224\273\346\235\277 1.png"
+	new file:   "Arts/\347\254\254\344\272\214\345\205\263\351\203\250\345\210\206/jt2_\347\224\273\346\235\277 1.png.meta"
+	new file:   "Arts/\347\254\254\344\272\214\345\205\263\351\203\250\345\210\206/jtfj1_\347\224\273\346\235\277 1.png"
+	new file:   "Arts/\347\254\254\344\272\214\345\205\263\351\203\250\345\210\206/jtfj1_\347\224\273\346\235\277 1.png.meta"
+	new file:   "Arts/\347\254\254\344\272\214\345\205\263\351\203\250\345\210\206/jtfj2_\347\224\273\346\235\277 1.png"
+	new file:   "Arts/\347\254\254\344\272\214\345\205\263\351\203\250\345\210\206/jtfj2_\347\224\273\346\235\277 1.png.meta"
+	new file:   "Arts/\347\254\254\344\272\214\345\205\263\351\203\250\345\210\206/qq_\347\224\273\346\235\277 1.png"
+	new file:   "Arts/\347\254\254\344\272\214\345\205\263\351\203\250\345\210\206/qq_\347\224\273\346\235\277 1.png.meta"
+	new file:   "Arts/\347\254\254\344\272\214\345\205\263\351\203\250\345\210\206/tm_\347\224\273\34
+
+[… truncated 16202 chars …]
