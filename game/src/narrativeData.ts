@@ -364,7 +364,7 @@ export const sequenceDefinitions: Record<SequenceId, SequenceDefinition> = {
     completionFlag: 'audience_complete',
     lines: [
       { speaker: '国王', text: '年轻人，希望你能热爱这份工作，王宫内的工作并不像你庄园里的工作。' },
-      { speaker: '主角', text: '当然陛下，我会珍惜这个工作机会的，往后我必谨言慎行，妥善处置分内事务。。' },
+      { speaker: '主角', text: '当然陛下，我会珍惜这个工作机会的，往后我必谨言慎行，妥善处置分内事务。' },
       { speaker: '国王', text: '即日起，你便入宫廷供职，执掌文书。' },
       { speaker: '主角', text: '谢陛下擢用。' },
       { speaker: '国王', text: '书房在王宫二楼，你先去将文件整理一下吧。' },
