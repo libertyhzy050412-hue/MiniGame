@@ -88,6 +88,7 @@ interface WoundedPuzzleOverlay {
 
 interface RescuePuzzleOverlay {
   type: 'rescuePuzzle'
+  level: number
   player: { x: number; y: number }
   crates: Array<{ x: number; y: number }>
   villagers: Array<{ x: number; y: number }>
@@ -245,30 +246,82 @@ const woundedPatients = [
   { id: 'w7', name: '老兵', detail: '旧伤很多，但此刻没有新的出血。', injured: false, pose: 'scarred' },
 ] as const
 
-const rescueLevel = {
-  width: 9,
-  height: 7,
-  start: { x: 1, y: 3 },
-  villagers: [
-    { x: 7, y: 2 },
-    { x: 7, y: 5 },
-    { x: 4, y: 5 },
-  ],
-  crates: [
-    { x: 3, y: 2 },
-    { x: 5, y: 2 },
-    { x: 3, y: 4 },
-    { x: 5, y: 3 },
-    { x: 5, y: 5 },
-  ],
-  walkable: new Set([
-    '1,1', '2,1', '3,1', '4,1', '5,1', '6,1', '7,1',
-    '1,2', '2,2', '3,2', '4,2', '5,2', '6,2', '7,2',
-    '1,3', '2,3', '3,3', '4,3', '5,3', '6,3', '7,3',
-    '1,4', '2,4', '3,4', '4,4', '5,4', '6,4', '7,4',
-    '1,5', '2,5', '3,5', '4,5', '5,5', '6,5', '7,5',
-  ]),
-} as const
+// ═══════════════════════════════════════════════════════════════
+// 搜救推箱子关卡（共 3 关）
+//
+// 机制：WASD 移动，推动箱子。玩家走到村民位置即救出。
+// 设计原则：每个箱子都卡在唯一通道上，必须推入侧边凹室才能通过。
+//          直接往前推箱子会堵死村民位置 → 死局。
+// ═══════════════════════════════════════════════════════════════
+
+const rescueLevels = [
+  // ── 第 1 关：巷口清障 ──
+  // 箱子堵路，从下方口袋绕过去，把箱子往上推进凹室。
+  {
+    width: 9,
+    height: 7,
+    start: { x: 1, y: 1 },
+    villagers: [{ x: 7, y: 1 }],
+    crates: [{ x: 4, y: 1 }],
+    walkable: new Set([
+      // 上层凹室（箱子推进来的落点）
+      '4,0',
+      // 主通道（左→右），箱子在 (4,1)，村民在 (7,1)
+      '1,1','2,1','3,1','4,1','5,1','6,1','7,1',
+      // 下层口袋（从箱子左侧进入，走到箱子正下方，再往上推出箱子）
+      '1,2','2,2','3,2','4,2',
+    ]),
+  },
+  // ── 第 2 关：双障拦路 ──
+  // 一条直路上两个箱子，各配一个口袋。必须先清第一个才能救到中间的村民，
+  // 然后清第二个救出末尾的村民。
+  {
+    width: 9,
+    height: 7,
+    start: { x: 1, y: 1 },
+    villagers: [
+      { x: 5, y: 1 },   // 夹在两个箱子中间
+      { x: 8, y: 1 },   // 走廊尽头
+    ],
+    crates: [
+      { x: 3, y: 1 },   // 第一个路障
+      { x: 7, y: 1 },   // 第二个路障
+    ],
+    walkable: new Set([
+      // 上层凹室（箱子落点）
+      '3,0',                     '7,0',
+      // 主通道
+      '1,1','2,1','3,1','4,1','5,1','6,1','7,1','8,1',
+      // 下层口袋（每个箱子正下方 + 左侧入口）
+      '1,2','2,2','3,2',   '6,2','7,2',
+    ]),
+  },
+  // ── 第 3 关：火线三重障 ──
+  // 一条直路三个箱子、三个村民。节奏紧凑，每一步都要走对口袋。
+  {
+    width: 9,
+    height: 7,
+    start: { x: 1, y: 1 },
+    villagers: [
+      { x: 3, y: 1 },   // C1 背后
+      { x: 6, y: 1 },   // C2 背后
+      { x: 8, y: 1 },   // C3 背后（与 C3 重叠，清掉 C3 即救出）
+    ],
+    crates: [
+      { x: 2, y: 1 },   // 第一道
+      { x: 5, y: 1 },   // 第二道
+      { x: 8, y: 1 },   // 第三道（与 V3 同格）
+    ],
+    walkable: new Set([
+      // 上层凹室
+      '2,0',             '5,0',             '8,0',
+      // 主通道
+      '1,1','2,1','3,1','4,1','5,1','6,1','7,1','8,1',
+      // 下层口袋
+      '1,2','2,2',   '4,2','5,2',   '7,2','8,2',
+    ]),
+  },
+] as const
 
 function dialogueToJournalBody(lines: DialogueLine[]) {
   return lines
@@ -431,8 +484,8 @@ function rescueCellKey(x: number, y: number) {
   return `${x},${y}`
 }
 
-function isRescueWalkable(x: number, y: number) {
-  return rescueLevel.walkable.has(rescueCellKey(x, y))
+function isRescueWalkable(x: number, y: number, level: number) {
+  return rescueLevels[level].walkable.has(rescueCellKey(x, y))
 }
 
 function rescueCrateIndex(crates: Array<{ x: number; y: number }>, x: number, y: number) {
@@ -1170,23 +1223,25 @@ function renderWoundedPuzzle(overlayState: WoundedPuzzleOverlay) {
 }
 
 function renderRescuePuzzle(overlayState: RescuePuzzleOverlay) {
+  const lv = rescueLevels[overlayState.level]
   const isVillagerAt = (col: number, row: number) =>
     overlayState.villagers.some((v) => v.x === col && v.y === row)
+  const totalLevels = rescueLevels.length
   return `
     <div class="overlay-scrim">
       <section class="${overlayCardClass('rescue-card')}">
         <header class="panel-header">
           <div>
-            <p class="eyebrow">搜救村民</p>
-            <h3>推开障碍，救出全部 ${rescueLevel.villagers.length} 名村民（已救 ${overlayState.rescued}）</h3>
+            <p class="eyebrow">搜救村民 第 ${overlayState.level + 1}/${totalLevels} 关</p>
+            <h3>推开障碍，救出村民</h3>
           </div>
           <button class="close-button" data-command="close-overlay" aria-label="关闭">×</button>
         </header>
         <div class="panel-body">
           <div class="rescue-board">
-            ${Array.from({ length: rescueLevel.height }, (_, row) =>
-              Array.from({ length: rescueLevel.width }, (_, col) => {
-                const walkable = isRescueWalkable(col, row)
+            ${Array.from({ length: lv.height }, (_, row) =>
+              Array.from({ length: lv.width }, (_, col) => {
+                const walkable = isRescueWalkable(col, row, overlayState.level)
                 const isGoal = isVillagerAt(col, row)
                 const crate = overlayState.crates.some((item) => item.x === col && item.y === row)
                 const player = overlayState.player.x === col && overlayState.player.y === row
@@ -1200,11 +1255,11 @@ function renderRescuePuzzle(overlayState: RescuePuzzleOverlay) {
               }).join(''),
             ).join('')}
           </div>
-          <p class="puzzle-intro">使用 <strong>W A S D</strong> 键移动，推开箱子走到村民所在的格子即可救出他们。救出全部 ${rescueLevel.villagers.length} 人后自动完成。</p>
+          <p class="puzzle-intro">使用 <strong>W A S D</strong> 键移动，推开箱子走到村民（金色小人）位置即可过关。共 ${totalLevels} 关。</p>
           ${overlayState.feedback ? `<p class="feedback-line">${escapeHtml(overlayState.feedback)}</p>` : ''}
         </div>
         <footer class="panel-footer">
-          <button class="seal-button" data-command="rescue-reset">重新搜路</button>
+          <button class="seal-button" data-command="rescue-reset">重试本关</button>
         </footer>
       </section>
     </div>
@@ -1435,11 +1490,14 @@ function openWoundedPuzzle() {
 }
 
 function openRescuePuzzle() {
+  const level = 0
+  const lv = rescueLevels[level]
   overlay = {
     type: 'rescuePuzzle',
-    player: { ...rescueLevel.start },
-    crates: rescueLevel.crates.map((crate) => ({ ...crate })),
-    villagers: rescueLevel.villagers.map((v) => ({ ...v })),
+    level,
+    player: { ...lv.start },
+    crates: lv.crates.map((crate) => ({ ...crate })),
+    villagers: lv.villagers.map((v) => ({ ...v })),
     rescued: 0,
   }
   render()
@@ -1449,10 +1507,10 @@ function makeSheepActors(): SheepActor[] {
   const homeX = 50
   const homeY = 50
   return [
-    { id: 1, x: homeX, y: homeY, homeX, homeY, vx: 2.4, vy: -1.8 },
-    { id: 2, x: homeX, y: homeY, homeX, homeY, vx: -2.2, vy: -1.5 },
-    { id: 3, x: homeX, y: homeY, homeX, homeY, vx: 1.5, vy: 2.6 },
-    { id: 4, x: homeX, y: homeY, homeX, homeY, vx: -2.6, vy: 1.2 },
+    { id: 1, x: homeX, y: homeY, homeX, homeY, vx: 1.0, vy: -0.7 },
+    { id: 2, x: homeX, y: homeY, homeX, homeY, vx: -0.9, vy: -0.6 },
+    { id: 3, x: homeX, y: homeY, homeX, homeY, vx: 0.6, vy: 1.1 },
+    { id: 4, x: homeX, y: homeY, homeX, homeY, vx: -1.1, vy: 0.5 },
   ]
 }
 
@@ -1509,10 +1567,10 @@ function startSheepTimer() {
       }
 
       // Free sheep — run outward
-      let nextVx = sheep.vx + (Math.random() - 0.5) * 0.4
-      let nextVy = sheep.vy + (Math.random() - 0.5) * 0.35
-      nextVx = clamp(nextVx, -2.2, 2.2)
-      nextVy = clamp(nextVy, -2.0, 2.0)
+      let nextVx = sheep.vx + (Math.random() - 0.5) * 0.18
+      let nextVy = sheep.vy + (Math.random() - 0.5) * 0.16
+      nextVx = clamp(nextVx, -1.4, 1.4)
+      nextVy = clamp(nextVy, -1.2, 1.2)
 
       let nextX = sheep.x + nextVx
       let nextY = sheep.y + nextVy
@@ -2023,7 +2081,7 @@ function handleCommand(command: string, value: string) {
 
       const nextX = overlay.player.x + step.x
       const nextY = overlay.player.y + step.y
-      if (!isRescueWalkable(nextX, nextY)) {
+      if (!isRescueWalkable(nextX, nextY, overlay.level)) {
         overlay = { ...overlay, feedback: '火势和废墟把这边堵死了，得换条路。' }
         render()
         return
@@ -2034,7 +2092,7 @@ function handleCommand(command: string, value: string) {
       if (crateIndex >= 0) {
         const pushedX = nextX + step.x
         const pushedY = nextY + step.y
-        if (!isRescueWalkable(pushedX, pushedY) || rescueCrateIndex(overlay.crates, pushedX, pushedY) >= 0) {
+        if (!isRescueWalkable(pushedX, pushedY, overlay.level) || rescueCrateIndex(overlay.crates, pushedX, pushedY) >= 0) {
           overlay = { ...overlay, feedback: '前面的箱子卡住了，推不动。' }
           render()
           return
@@ -2049,18 +2107,34 @@ function handleCommand(command: string, value: string) {
         const remaining = overlay.villagers.filter((_, i) => i !== villagerIndex)
         const rescued = overlay.rescued + 1
         if (remaining.length === 0) {
-          addFlags('villagers_saved')
-          overlay = null
-          showToast(`你救出了最后一名村民！共救出 ${rescued} 人。`)
-          openSequence('rescuedChild')
+          const nextLevel = overlay.level + 1
+          if (nextLevel >= rescueLevels.length) {
+            addFlags('villagers_saved')
+            playSfx('puzzleSuccess')
+            overlay = null
+            showToast(`全部 ${rescueLevels.length} 关完成！共救出 ${rescued} 名村民。`)
+            openSequence('rescuedChild')
+            return
+          }
+          const lv = rescueLevels[nextLevel]
+          overlay = {
+            type: 'rescuePuzzle',
+            level: nextLevel,
+            player: { ...lv.start },
+            crates: lv.crates.map((c) => ({ ...c })),
+            villagers: lv.villagers.map((v) => ({ ...v })),
+            rescued,
+            feedback: `第 ${overlay.level + 1} 关通过！进入第 ${nextLevel + 1} 关。`,
+          }
+          render()
           return
         }
-        overlay = { type: 'rescuePuzzle', player, crates, villagers: remaining, rescued, feedback: `救出了第 ${rescued} 名村民！还剩 ${remaining.length} 人。` }
+        overlay = { ...overlay, player, crates, villagers: remaining, rescued, feedback: `救出了第 ${rescued} 名村民！还剩 ${remaining.length} 人。` }
         render()
         return
       }
 
-      overlay = { type: 'rescuePuzzle', player, crates, villagers: overlay.villagers, rescued: overlay.rescued, feedback: undefined }
+      overlay = { ...overlay, player, crates, feedback: undefined }
       render()
       return
     case 'rescue-reset':
